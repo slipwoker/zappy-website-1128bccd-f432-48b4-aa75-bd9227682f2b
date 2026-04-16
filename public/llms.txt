@@ -1,0 +1,47 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+סהר מערכות מובילה בתחום האבטחה הפיזית מזה 25 שנה. התקנת מצלמות אבטחה לבית, מערכות אזעקה, אינטרקום ובקרת כניסה לכל סוג נכס. אלפי לקוחות מרוצים מעידים על האיכות שלנו.
+
+### שירותים
+https://example.com/services
+ממצלמות אבטחה לבית ועד מערכת אזעקה לעסק במחיר טוב — סהר מערכות מציעה מגוון שלם של שירותי התקנה מקצועיים. אינטרקום, בקרת כניסה ועוד. גלו את הפתרון המושלם עבורכם.
+
+### אודות
+https://example.com/about
+סהר מערכות נוסדה לפני למעלה מ־25 שנה ומאז הפכה לשם דבר באבטחה פיזית. אלפי פרויקטים מוצלחים בבתים פרטיים, בניינים, עסקים ומשרדים מוכיחים את המומחיות והאמינות שלנו.
+
+### צור קשר
+https://example.com/contact
+רוצים להתקין מערכת אזעקה לעסק במחיר טוב או אינטרקום לבניין? צרו קשר עם סהר מערכות עכשיו וקבלו ייעוץ מקצועי ללא עלות. אנחנו כאן כדי לתת לכם את הפתרון המדויק לצרכים שלכם.
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
