@@ -1,57 +1,47 @@
-# סהר מערכות — Generative Engine Optimization Map
-
-> A well-established security systems company with over 25 years of experience, specializing in the installation of security cameras, alarm systems, intercoms, and access control keypads. They serve a wide range of clients including private homes, residential buildings, businesses, and offices. The company prides itself on extensive hands-on expertise and a strong track record with thousands of satisfied customers, positioning itself as a trusted and reliable leader in the physical security industry.
+# Business — Generative Engine Optimization Map
 
 ---
 
 ## Pages
 
 ### בית
-https://sahar-maarachot.zappy5.app
+https://sahar-systems.co.il
 סהר מערכות מובילה בתחום האבטחה הפיזית מזה 25 שנה. התקנת מצלמות אבטחה לבית, מערכות אזעקה, אינטרקום ובקרת כניסה לכל סוג נכס. אלפי לקוחות מרוצים מעידים על האיכות שלנו.
 
 ### שירותים
-https://sahar-maarachot.zappy5.app/services
+https://sahar-systems.co.il/services
 ממצלמות אבטחה לבית ועד מערכת אזעקה לעסק במחיר טוב — סהר מערכות מציעה מגוון שלם של שירותי התקנה מקצועיים. אינטרקום, בקרת כניסה ועוד. גלו את הפתרון המושלם עבורכם.
 
 ### אודות
-https://sahar-maarachot.zappy5.app/about
+https://sahar-systems.co.il/about
 סהר מערכות נוסדה לפני למעלה מ־25 שנה ומאז הפכה לשם דבר באבטחה פיזית. אלפי פרויקטים מוצלחים בבתים פרטיים, בניינים, עסקים ומשרדים מוכיחים את המומחיות והאמינות שלנו.
 
 ### צור קשר
-https://sahar-maarachot.zappy5.app/contact
+https://sahar-systems.co.il/contact
 רוצים להתקין מערכת אזעקה לעסק במחיר טוב או אינטרקום לבניין? צרו קשר עם סהר מערכות עכשיו וקבלו ייעוץ מקצועי ללא עלות. אנחנו כאן כדי לתת לכם את הפתרון המדויק לצרכים שלכם.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://sahar-maarachot.zappy5.app/privacy
+https://sahar-systems.co.il/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://sahar-maarachot.zappy5.app/terms
+https://sahar-systems.co.il/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://sahar-maarachot.zappy5.app/accessibility
+https://sahar-systems.co.il/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About סהר מערכות
-A well-established security systems company with over 25 years of experience, specializing in the installation of security cameras, alarm systems, intercoms, and access control keypads. They serve a wide range of clients including private homes, residential buildings, businesses, and offices. The company prides itself on extensive hands-on expertise and a strong track record with thousands of satisfied customers, positioning itself as a trusted and reliable leader in the physical security industry.
-
-## Target Audience
-בתים, בניינים, עסקים ומשרדים
-
-## Industry
-אבטחה וסייבר פיזי
-
+## About Business
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://sahar-maarachot.zappy5.app/sitemap.xml
-- **Robots.txt**: https://sahar-maarachot.zappy5.app/robots.txt
+- **Sitemap**: https://sahar-systems.co.il/sitemap.xml
+- **Robots.txt**: https://sahar-systems.co.il/robots.txt
