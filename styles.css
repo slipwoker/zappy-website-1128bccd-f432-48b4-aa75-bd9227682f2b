@@ -68,7 +68,6 @@
   src: url('assets/fonts/Rubik-Bold.woff2') format('woff2');
 }
 
-
 /* Self-hosted fonts (Inter + Rubik for multi-language support) */
 
 /* Inter font (English / LTR languages) */
@@ -1247,8 +1246,6 @@ select:focus {
   }
 }
 
-
-
 /* ============================================
    NAVBAR LAYOUT - POST-GENERATION FIXES
    Structural layout only - colors from Claude
@@ -2103,7 +2100,6 @@ html[lang="ar"] .nav-cta-btn {
 /* Post-generation fix: Remove main element margin-top and padding-top */
 main { margin-top: 0 !important; padding-top: 0 !important; }
 
-
 /* Footer Styles */
 .site-footer {
   --primary: #1F5EFF;
@@ -2425,7 +2421,6 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
     gap: 0.35rem;
   }
 }
-
 
 /* Footer Contrast Guard — overrides dark-on-dark text */
 .site-footer .contact-list a,
@@ -7128,13 +7123,10 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   }
 }
 
-
-
 /* Global font override - exclude icon fonts and special elements */
 *:not(.fas):not(.far):not(.fab):not(.fa):not([class*="fa-"]):not(.iconify):not([class*="icon"]):not(code):not(pre):not(i[class*="fa"]) {
   font-family: 'Rubik', sans-serif !important;
 }
-
 
 /* Logo size constraint - enforce max-height only */
 .logo, img.logo, .logo img, .logo-link img, .nav-brand img {
@@ -7143,7 +7135,6 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   width: auto !important;
   object-fit: contain !important;
 }
-
 
 /* Hide WhatsApp float button on desktop (mobile-only) */
 @media (min-width: 769px) {
@@ -7155,7 +7146,6 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   }
 }
 
-
 /* Footer contact alignment fix */
 .footer-contact li > a { display: flex; align-items: flex-start; gap: inherit; }
 
@@ -7164,7 +7154,6 @@ html[dir="rtl"] .footer-contact li, html[dir="rtl"] .site-footer .footer-contact
 html[dir="rtl"] .footer-contact .contact-icon { order: 0 !important; }
 html[dir="rtl"] .footer-contact .contact-text { order: 1 !important; }
 html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
-
 
 /* ============================================
    MOBILE RESPONSIVE FIXES (Auto-generated)
@@ -7382,7 +7371,6 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 
 /* END MOBILE RESPONSIVE FIXES */
 
-
 /* Legal Pages Content Styles */
 
 /* Legal Pages Content Styles */
@@ -7471,7 +7459,6 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   border-left: none;
   border-right: 4px solid currentColor;
 }
-
 
 /* Cookie Consent Styles */
 
@@ -7569,7 +7556,6 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   white-space: nowrap !important;
   border: 0 !important;
 }
-
 
 /* Custom Accessibility Toolbar Styling - Zappy Style */
 
@@ -7787,6 +7773,251 @@ body.accessibility-widget-visible ._access-menu {
   body.accessibility-widget-visible div[id*="mic-access-tool-box"],
   body.accessibility-widget-visible ._access-menu {
     display: none !important;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════
+   V2 REGENERATED SECTION CSS (גלריית עבודות-hero)
+   Added: 2026-04-20T11:28:33.879Z
+   ═══════════════════════════════════════════════════════════ */
+.gallery-hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+  direction: rtl;
+}
+
+/* Background Image */
+.gallery-hero-section .gallery-hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: var(--bg-dark);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Scrim Overlay */
+.gallery-hero-section .gallery-hero-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(135deg, rgba(20, 30, 45, 0.72) 0%, rgba(20, 30, 45, 0.38) 55%, rgba(20, 30, 45, 0.18) 100%);
+}
+
+/* Container */
+.gallery-hero-section .gallery-hero-container {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 140px 32px 96px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Card */
+.gallery-hero-section .gallery-hero-card {
+  background: rgba(250, 250, 247, 0.93);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(31, 41, 51, 0.08);
+  border-radius: 20px;
+  box-shadow: 0 18px 48px rgba(32, 36, 42, 0.18), 0 2px 8px rgba(32, 36, 42, 0.08);
+  padding: 44px 40px 40px;
+  width: 100%;
+  max-width: 520px;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  text-align: right;
+}
+
+/* Page Label */
+.gallery-hero-section .gallery-hero-label {
+  display: inline-block;
+  font-family: Manrope, Assistant, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 14px;
+}
+
+/* Gold Divider Line */
+.gallery-hero-section .gallery-hero-gold-line {
+  width: 56px;
+  height: 3px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, #B98A2E 0%, #D4B56A 48%, #E3C98B 100%);
+  margin-bottom: 22px;
+  margin-inline-start: auto;
+}
+
+/* H1 */
+.gallery-hero-section .gallery-hero-h1 {
+  font-family: Manrope, Assistant, Arial, sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #1F3963;
+  margin: 0 0 18px;
+  text-align: right;
+}
+
+/* H3 Subtitle */
+.gallery-hero-section .gallery-hero-h3 {
+  font-family: Inter, Assistant, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--text-muted);
+  margin: 0 0 28px;
+  text-align: right;
+}
+
+/* CTA Row */
+.gallery-hero-section .gallery-hero-cta-row {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Primary Button */
+.gallery-hero-section .gallery-hero-btn-primary {
+  display: inline-block;
+  background: #1E4579;
+  color: #FFFFFF;
+  font-family: Manrope, Assistant, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  padding: 14px 30px;
+  border-radius: 6px;
+  border: none;
+  text-decoration: none;
+  transition: background 0.22s ease, transform 0.18s ease, box-shadow 0.18s ease;
+  box-shadow: 0 10px 24px rgba(30, 69, 121, 0.18);
+  white-space: nowrap;
+}
+
+.gallery-hero-section .gallery-hero-btn-primary:hover {
+  background: #163a66;
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px rgba(30, 69, 121, 0.28);
+}
+
+/* Ghost Button */
+.gallery-hero-section .gallery-hero-btn-ghost {
+  display: inline-block;
+  background: transparent;
+  color: #1E4579;
+  font-family: Manrope, Assistant, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+  padding: 13px 22px;
+  border-radius: 6px;
+  border: 1.5px solid #1E4579;
+  text-decoration: none;
+  transition: background 0.22s ease, color 0.18s ease, transform 0.18s ease;
+  white-space: nowrap;
+}
+
+.gallery-hero-section .gallery-hero-btn-ghost:hover {
+  background: #1E4579;
+  color: #FFFFFF;
+  transform: translateY(-2px);
+}
+
+/* ── TABLET ── */
+@media (max-width: 1024px) {
+  .gallery-hero-section .gallery-hero-container {
+    padding: 130px 24px 80px;
+  }
+
+  .gallery-hero-section .gallery-hero-card {
+    max-width: 480px;
+    padding: 36px 32px 32px;
+  }
+
+  .gallery-hero-section .gallery-hero-h1 {
+    font-size: 2.5rem;
+  }
+}
+
+/* ── MOBILE ── */
+@media (max-width: 768px) {
+  .gallery-hero-section {
+    min-height: 100svh;
+    align-items: flex-end;
+  }
+
+  .gallery-hero-section .gallery-hero-scrim {
+    background-image: linear-gradient(
+      180deg,
+      rgba(20, 30, 45, 0.28) 0%,
+      rgba(20, 30, 45, 0.62) 50%,
+      rgba(20, 30, 45, 0.82) 100%
+    );
+  }
+
+  .gallery-hero-section .gallery-hero-container {
+    padding: 100px 0 0;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .gallery-hero-section .gallery-hero-card {
+    max-width: 100%;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    padding: 28px 20px 36px;
+    box-shadow: 0 -8px 32px rgba(32, 36, 42, 0.14);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+
+  .gallery-hero-section .gallery-hero-h1 {
+    font-size: 2rem;
+    margin-bottom: 14px;
+  }
+
+  .gallery-hero-section .gallery-hero-h3 {
+    font-size: 0.9375rem;
+    margin-bottom: 22px;
+  }
+
+  .gallery-hero-section .gallery-hero-cta-row {
+    gap: 10px;
+  }
+
+  .gallery-hero-section .gallery-hero-btn-primary,
+  .gallery-hero-section .gallery-hero-btn-ghost {
+    font-size: 15px;
+    padding: 12px 20px;
+  }
+
+  .gallery-hero-section .gallery-hero-gold-line {
+    width: 44px;
+    margin-bottom: 18px;
   }
 }
 /* mobile-submenu-overflow-fix */

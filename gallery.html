@@ -1017,6 +1017,249 @@
     padding: 14px 24px;
   }
 }</style>
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.gallery-hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+  direction: rtl;
+}
+
+/* Background Image */
+.gallery-hero-section .gallery-hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: var(--bg-dark);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Scrim Overlay */
+.gallery-hero-section .gallery-hero-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(135deg, rgba(20, 30, 45, 0.72) 0%, rgba(20, 30, 45, 0.38) 55%, rgba(20, 30, 45, 0.18) 100%);
+}
+
+/* Container */
+.gallery-hero-section .gallery-hero-container {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 140px 32px 96px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Card */
+.gallery-hero-section .gallery-hero-card {
+  background: rgba(250, 250, 247, 0.93);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(31, 41, 51, 0.08);
+  border-radius: 20px;
+  box-shadow: 0 18px 48px rgba(32, 36, 42, 0.18), 0 2px 8px rgba(32, 36, 42, 0.08);
+  padding: 44px 40px 40px;
+  width: 100%;
+  max-width: 520px;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  text-align: right;
+}
+
+/* Page Label */
+.gallery-hero-section .gallery-hero-label {
+  display: inline-block;
+  font-family: Manrope, Assistant, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 14px;
+}
+
+/* Gold Divider Line */
+.gallery-hero-section .gallery-hero-gold-line {
+  width: 56px;
+  height: 3px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, #B98A2E 0%, #D4B56A 48%, #E3C98B 100%);
+  margin-bottom: 22px;
+  margin-inline-start: auto;
+}
+
+/* H1 */
+.gallery-hero-section .gallery-hero-h1 {
+  font-family: Manrope, Assistant, Arial, sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #1F3963;
+  margin: 0 0 18px;
+  text-align: right;
+}
+
+/* H3 Subtitle */
+.gallery-hero-section .gallery-hero-h3 {
+  font-family: Inter, Assistant, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--text-muted);
+  margin: 0 0 28px;
+  text-align: right;
+}
+
+/* CTA Row */
+.gallery-hero-section .gallery-hero-cta-row {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Primary Button */
+.gallery-hero-section .gallery-hero-btn-primary {
+  display: inline-block;
+  background: #1E4579;
+  color: #FFFFFF;
+  font-family: Manrope, Assistant, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  padding: 14px 30px;
+  border-radius: 6px;
+  border: none;
+  text-decoration: none;
+  transition: background 0.22s ease, transform 0.18s ease, box-shadow 0.18s ease;
+  box-shadow: 0 10px 24px rgba(30, 69, 121, 0.18);
+  white-space: nowrap;
+}
+
+.gallery-hero-section .gallery-hero-btn-primary:hover {
+  background: #163a66;
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px rgba(30, 69, 121, 0.28);
+}
+
+/* Ghost Button */
+.gallery-hero-section .gallery-hero-btn-ghost {
+  display: inline-block;
+  background: transparent;
+  color: #1E4579;
+  font-family: Manrope, Assistant, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+  padding: 13px 22px;
+  border-radius: 6px;
+  border: 1.5px solid #1E4579;
+  text-decoration: none;
+  transition: background 0.22s ease, color 0.18s ease, transform 0.18s ease;
+  white-space: nowrap;
+}
+
+.gallery-hero-section .gallery-hero-btn-ghost:hover {
+  background: #1E4579;
+  color: #FFFFFF;
+  transform: translateY(-2px);
+}
+
+/* ── TABLET ── */
+@media (max-width: 1024px) {
+  .gallery-hero-section .gallery-hero-container {
+    padding: 130px 24px 80px;
+  }
+
+  .gallery-hero-section .gallery-hero-card {
+    max-width: 480px;
+    padding: 36px 32px 32px;
+  }
+
+  .gallery-hero-section .gallery-hero-h1 {
+    font-size: 2.5rem;
+  }
+}
+
+/* ── MOBILE ── */
+@media (max-width: 768px) {
+  .gallery-hero-section {
+    min-height: 100svh;
+    align-items: flex-end;
+  }
+
+  .gallery-hero-section .gallery-hero-scrim {
+    background-image: linear-gradient(
+      180deg,
+      rgba(20, 30, 45, 0.28) 0%,
+      rgba(20, 30, 45, 0.62) 50%,
+      rgba(20, 30, 45, 0.82) 100%
+    );
+  }
+
+  .gallery-hero-section .gallery-hero-container {
+    padding: 100px 0 0;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .gallery-hero-section .gallery-hero-card {
+    max-width: 100%;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    padding: 28px 20px 36px;
+    box-shadow: 0 -8px 32px rgba(32, 36, 42, 0.14);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+
+  .gallery-hero-section .gallery-hero-h1 {
+    font-size: 2rem;
+    margin-bottom: 14px;
+  }
+
+  .gallery-hero-section .gallery-hero-h3 {
+    font-size: 0.9375rem;
+    margin-bottom: 22px;
+  }
+
+  .gallery-hero-section .gallery-hero-cta-row {
+    gap: 10px;
+  }
+
+  .gallery-hero-section .gallery-hero-btn-primary,
+  .gallery-hero-section .gallery-hero-btn-ghost {
+    font-size: 15px;
+    padding: 12px 20px;
+  }
+
+  .gallery-hero-section .gallery-hero-gold-line {
+    width: 44px;
+    margin-bottom: 18px;
+  }
+}
+</style>
     <link rel="stylesheet" href="/styles.css">
 
     <style id="zappy-dropdown-submenu-styles">
@@ -1564,35 +1807,32 @@
 
 </script>
   
-  <main class="blog-page ai-generated-page"><section class="gallery-hero-section" data-layout-spec="גלריית עבודות-hero" dir="rtl" data-hero-type="fullscreen-scrim">
+  <main class="blog-page ai-generated-page"><section class="gallery-hero-section" data-layout-spec="גלריית עבודות-hero" dir="rtl" data-hero-type="fullscreen-scrim" data-zappy-section="true">
   <!-- Background Image Layer -->
-  <div class="gallery-hero-bg">
-    <img data-hero-bg="true" data-context="Professional security system installation in a modern Israeli office or residential building: a technician mounting a high-resolution surveillance camera on a wall, with clean wiring, access control panel visible in background, bright professional lighting, realistic photo, wide shot showing the installation environment clearly" width="1200" height="700" src="/assets/section-hero-gallery-hero-image-1.webp" alt="התקנת מצלמות אבטחה ומערכות סייבר פיזי מקצועיות על ידי טכנאי סהר מערכות" data-zappy-editable-image="true">
-  </div>
+  <div class="gallery-hero-bg" style="background-image: url('assets/section-hero-gallery-hero-image-1.webp'); background-size: cover; background-position: center;"></div>
 
   <!-- Scrim Overlay -->
   <div class="gallery-hero-scrim" aria-hidden="true"></div>
 
   <!-- Content Container -->
   <div class="gallery-hero-container">
-    <!-- Overlay Card aligned to right -->
     <div class="gallery-hero-card">
-      <!-- Label / Eyebrow -->
+      <!-- Page Label -->
       <span class="gallery-hero-label">גלריית עבודות</span>
 
       <!-- Gold Divider -->
-      <div class="gallery-hero-gold-divider" aria-hidden="true"></div>
+      <div class="gallery-hero-gold-line" aria-hidden="true"></div>
 
-      <!-- H1 -->
+      <!-- Headline -->
       <h1 class="gallery-hero-h1">עבודות שמדברות<br>בעד עצמן</h1>
 
       <!-- Subtitle -->
-      <h3 class="gallery-hero-subtitle">מאות פרויקטי אבטחה מוצלחים לבתים, בניינים, עסקים ומשרדים — כולם בידיים מקצועיות של סהר מערכות.</h3>
+      <h3 class="gallery-hero-h3">מאות פרויקטי אבטחה מוצלחים לבתים, בניינים, עסקים ומשרדים — כולם בידיים מקצועיות של סהר מערכות.</h3>
 
       <!-- CTA Row -->
       <div class="gallery-hero-cta-row">
-        <a href="/contact" class="btn-primary gallery-hero-btn-primary">לפרויקט שלכם</a>
-        <a href="/services" class="btn-ghost gallery-hero-btn-ghost">השירותים שלנו</a>
+        <a href="/contact" class="gallery-hero-btn-primary">לפרויקט שלכם</a>
+        <a href="/services" class="gallery-hero-btn-ghost">השירותים שלנו</a>
       </div>
     </div>
   </div>
@@ -1601,74 +1841,74 @@
 <section class="gallery-gallery-section" data-layout-spec="גלריית עבודות-gallery" dir="rtl" id="gallery-gallery-section">
   <div class="gallery-container">
     <div class="gallery-header">
-      <h2 class="gallery-title" style=""><font color="#ffffff">הפרויקטים </font>שלנו</h2>
+      <h2 class="gallery-title" ><font color="#ffffff">הפרויקטים </font>שלנו</h2>
       <p class="gallery-subtitle">מבחר עבודות מהשטח — התקנות מצלמות אבטחה, מערכות אזעקה, אינטרקומים ובקרת כניסה בבתים פרטיים, בניינים ועסקים ברחבי הארץ.</p>
     </div>
 
     <div class="gallery-grid zappy-preserve-css-grid" id="zappy-auto-grid-1776683663421-ft541y" data-zappy-auto-grid="true" data-original-item-width="305" data-original-gap="20px" style="display: grid; --zappy-grid-cols: repeat(4, minmax(0, 1fr)); grid-template-columns: repeat(4, minmax(0, 1fr)); align-items: stretch !important;" data-zappy-explicit-columns="true">
 
       <figure class="gallery-item portrait zappy-grid-item-media-only zappy-grid-item-no-stretch" data-grid-item-index="0" data-zappy-has-aspect-ratio="true">
-        <img data-context="Professional CCTV security camera installation on exterior wall of a modern Israeli residential building, close-up shot showing high-quality dome camera mounted cleanly, neutral daytime lighting, photorealistic" width="600" height="800" src="/assets/section-gallery-gallery-gallery-image-1.webp" alt="התקנת מצלמת אבטחה על קיר חיצוני של בניין מגורים" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1776683663384-xy2mhb6zx" style="">
+        <img data-context="Professional CCTV security camera installation on exterior wall of a modern Israeli residential building, close-up shot showing high-quality dome camera mounted cleanly, neutral daytime lighting, photorealistic" width="600" height="800" src="/assets/section-gallery-gallery-gallery-image-1.webp" alt="התקנת מצלמת אבטחה על קיר חיצוני של בניין מגורים" data-element-type="image" data-element-id="img-1776683663384-xy2mhb6zx" >
       </figure>
 
       <figure class="gallery-item landscape zappy-grid-item-media-only zappy-grid-item-no-stretch" data-grid-item-index="1" data-zappy-has-aspect-ratio="true">
-        <img data-context="Wide angle view of a modern office lobby in Israel with visible access control keypad and intercom panel mounted at entrance, clean professional environment, bright interior lighting" width="800" height="500" src="/assets/section-gallery-gallery-gallery-image-2.webp" alt="לוח בקרת כניסה ואינטרקום בכניסה למשרד" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1776683663384-r73u2fkzg" style="">
+        <img data-context="Wide angle view of a modern office lobby in Israel with visible access control keypad and intercom panel mounted at entrance, clean professional environment, bright interior lighting" width="800" height="500" src="/assets/section-gallery-gallery-gallery-image-2.webp" alt="לוח בקרת כניסה ואינטרקום בכניסה למשרד" data-element-type="image" data-element-id="img-1776683663384-r73u2fkzg" >
       </figure>
 
       <figure class="gallery-item square zappy-grid-item-media-only zappy-grid-item-no-stretch" data-grid-item-index="2" data-zappy-has-aspect-ratio="true">
-        <img data-context="Close-up of a professional alarm control panel installed on interior wall of an Israeli home, modern digital keypad with LED indicators, clean installation" width="600" height="600" src="/assets/section-gallery-gallery-gallery-image-3.webp" alt="לוח בקרת אזעקה ביתית" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1776683663384-znopgumil" style="">
+        <img data-context="Close-up of a professional alarm control panel installed on interior wall of an Israeli home, modern digital keypad with LED indicators, clean installation" width="600" height="600" src="/assets/section-gallery-gallery-gallery-image-3.webp" alt="לוח בקרת אזעקה ביתית" data-element-type="image" data-element-id="img-1776683663384-znopgumil" >
       </figure>
 
       <figure class="gallery-item portrait zappy-grid-item-media-only zappy-grid-item-no-stretch" data-grid-item-index="3" data-zappy-has-aspect-ratio="true">
-        <img data-context="Security technician installing a bullet security camera on the corner of a commercial building in Israel, professional workmanship, ladder visible, daytime exterior" width="600" height="800" src="/assets/section-gallery-gallery-gallery-image-4.webp" alt="טכנאי מתקין מצלמת אבטחה על פינת מבנה מסחרי" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1776683663384-wbssmoqiu" style="">
+        <img data-context="Security technician installing a bullet security camera on the corner of a commercial building in Israel, professional workmanship, ladder visible, daytime exterior" width="600" height="800" src="/assets/section-gallery-gallery-gallery-image-4.webp" alt="טכנאי מתקין מצלמת אבטחה על פינת מבנה מסחרי" data-element-type="image" data-element-id="img-1776683663384-wbssmoqiu" >
       </figure>
 
       <figure class="gallery-item landscape zappy-grid-item-media-only zappy-grid-item-no-stretch" data-grid-item-index="4" data-zappy-has-aspect-ratio="true">
-        <img data-context="Monitoring room with multiple security camera screens showing live feeds from various locations in an Israeli business, professional setup with clean cable management" width="800" height="500" src="/assets/section-gallery-gallery-gallery-image-5.webp" alt="חדר ניטור עם מסכי מצלמות אבטחה" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1776683663384-te5dczbph" style="">
+        <img data-context="Monitoring room with multiple security camera screens showing live feeds from various locations in an Israeli business, professional setup with clean cable management" width="800" height="500" src="/assets/section-gallery-gallery-gallery-image-5.webp" alt="חדר ניטור עם מסכי מצלמות אבטחה" data-element-type="image" data-element-id="img-1776683663384-te5dczbph" >
       </figure>
 
       <figure class="gallery-item square zappy-grid-item-media-only zappy-grid-item-no-stretch" data-grid-item-index="5" data-zappy-has-aspect-ratio="true">
-        <img data-context="Modern video intercom panel with camera installed at the entrance of an Israeli residential building, sleek design, stainless steel finish, evening lighting" width="600" height="600" src="/assets/section-gallery-gallery-gallery-image-6.webp" alt="פאנל אינטרקום וידאו בכניסה לבניין מגורים" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1776683663384-le3272r4r" style="">
+        <img data-context="Modern video intercom panel with camera installed at the entrance of an Israeli residential building, sleek design, stainless steel finish, evening lighting" width="600" height="600" src="/assets/section-gallery-gallery-gallery-image-6.webp" alt="פאנל אינטרקום וידאו בכניסה לבניין מגורים" data-element-type="image" data-element-id="img-1776683663384-le3272r4r" >
       </figure>
 
       <figure class="gallery-item landscape zappy-grid-item-media-only zappy-grid-item-no-stretch" data-grid-item-index="6" data-zappy-has-aspect-ratio="true">
-        <img data-context="Row of PTZ security cameras installed on rooftop of an Israeli commercial complex, panoramic view, blue sky background, professional mounting brackets" width="800" height="500" src="/assets/section-gallery-gallery-gallery-image-7.webp" alt="מצלמות PTZ על גג מתחם מסחרי" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1776683663384-7niu87vcr" style="">
+        <img data-context="Row of PTZ security cameras installed on rooftop of an Israeli commercial complex, panoramic view, blue sky background, professional mounting brackets" width="800" height="500" src="/assets/section-gallery-gallery-gallery-image-7.webp" alt="מצלמות PTZ על גג מתחם מסחרי" data-element-type="image" data-element-id="img-1776683663384-7niu87vcr" >
       </figure>
 
       <figure class="gallery-item portrait zappy-grid-item-media-only zappy-grid-item-no-stretch" data-grid-item-index="7" data-zappy-has-aspect-ratio="true">
-        <img data-context="Neat cable management and DVR/NVR security recording unit installed in a server cabinet inside an Israeli business, professional rack mount setup" width="600" height="800" src="/assets/section-gallery-gallery-gallery-image-8.webp" alt="יחידת הקלטה DVR בארון שרת עסקי" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1776683663384-44y8ts0lm" style="">
+        <img data-context="Neat cable management and DVR/NVR security recording unit installed in a server cabinet inside an Israeli business, professional rack mount setup" width="600" height="800" src="/assets/section-gallery-gallery-gallery-image-8.webp" alt="יחידת הקלטה DVR בארון שרת עסקי" data-element-type="image" data-element-id="img-1776683663384-44y8ts0lm" >
       </figure>
 
       <figure class="gallery-item square zappy-grid-item-media-only zappy-grid-item-no-stretch" data-grid-item-index="8" data-zappy-has-aspect-ratio="true">
-        <img data-context="Smart electric gate with access control reader installed at the entrance of a private Israeli villa, iron gate with keypad, landscaped driveway" width="600" height="600" src="/assets/section-gallery-gallery-gallery-image-9.webp" alt="שער חשמלי עם בקרת כניסה בכניסה לוילה פרטית" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1776683663384-vfxerzhfg" style="">
+        <img data-context="Smart electric gate with access control reader installed at the entrance of a private Israeli villa, iron gate with keypad, landscaped driveway" width="600" height="600" src="/assets/section-gallery-gallery-gallery-image-9.webp" alt="שער חשמלי עם בקרת כניסה בכניסה לוילה פרטית" data-element-type="image" data-element-id="img-1776683663384-vfxerzhfg" >
       </figure>
 
       <figure class="gallery-item landscape zappy-grid-item-media-only zappy-grid-item-no-stretch" data-grid-item-index="9" data-zappy-has-aspect-ratio="true">
-        <img data-context="Overhead view of a shopping mall parking lot in Israel with multiple security cameras covering the area, wide coverage installation, clear signage" width="800" height="500" src="/assets/section-gallery-gallery-gallery-image-10.webp" alt="כיסוי מצלמות אבטחה בחניון קניון" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1776683663384-o7gum7cvl" style="">
+        <img data-context="Overhead view of a shopping mall parking lot in Israel with multiple security cameras covering the area, wide coverage installation, clear signage" width="800" height="500" src="/assets/section-gallery-gallery-gallery-image-10.webp" alt="כיסוי מצלמות אבטחה בחניון קניון" data-element-type="image" data-element-id="img-1776683663384-o7gum7cvl" >
       </figure>
 
       <figure class="gallery-item portrait zappy-grid-item-media-only zappy-grid-item-no-stretch" data-grid-item-index="10" data-zappy-has-aspect-ratio="true">
-        <img data-context="Motion sensor and alarm siren installed on exterior wall of an Israeli private home, white housing, professional placement near roofline" width="600" height="800" src="/assets/section-gallery-gallery-gallery-image-11.webp" alt="חיישן תנועה וסירנת אזעקה על קיר בית פרטי" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1776683663384-p2n0km7x0" style="">
+        <img data-context="Motion sensor and alarm siren installed on exterior wall of an Israeli private home, white housing, professional placement near roofline" width="600" height="800" src="/assets/section-gallery-gallery-gallery-image-11.webp" alt="חיישן תנועה וסירנת אזעקה על קיר בית פרטי" data-element-type="image" data-element-id="img-1776683663384-p2n0km7x0" >
       </figure>
 
       <figure class="gallery-item square zappy-grid-item-media-only zappy-grid-item-no-stretch" data-grid-item-index="11" data-zappy-has-aspect-ratio="true">
-        <img data-context="Close-up of a biometric fingerprint access control reader installed at office door in Israel, modern sleek design, metal door frame" width="600" height="600" src="/assets/section-gallery-gallery-gallery-image-12.webp" alt="קורא טביעת אצבע לבקרת כניסה במשרד" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1776683663384-dq0ekjono" style="">
+        <img data-context="Close-up of a biometric fingerprint access control reader installed at office door in Israel, modern sleek design, metal door frame" width="600" height="600" src="/assets/section-gallery-gallery-gallery-image-12.webp" alt="קורא טביעת אצבע לבקרת כניסה במשרד" data-element-type="image" data-element-id="img-1776683663384-dq0ekjono" >
       </figure>
 
       <figure class="gallery-item landscape zappy-grid-item-media-only zappy-grid-item-no-stretch" data-grid-item-index="12" data-zappy-has-aspect-ratio="true">
-        <img data-context="Interior of a warehouse in Israel with wide-angle security cameras mounted on ceiling beams, industrial environment, high ceilings, forklift visible" width="800" height="500" src="/assets/section-gallery-gallery-gallery-image-13.webp" alt="מצלמות אבטחה במחסן תעשייתי" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1776683663384-oyxpswkx6" style="">
+        <img data-context="Interior of a warehouse in Israel with wide-angle security cameras mounted on ceiling beams, industrial environment, high ceilings, forklift visible" width="800" height="500" src="/assets/section-gallery-gallery-gallery-image-13.webp" alt="מצלמות אבטחה במחסן תעשייתי" data-element-type="image" data-element-id="img-1776683663384-oyxpswkx6" >
       </figure>
 
       <figure class="gallery-item portrait zappy-grid-item-media-only zappy-grid-item-no-stretch" data-grid-item-index="13" data-zappy-has-aspect-ratio="true">
-        <img data-context="Residential stairwell in an Israeli apartment building with newly installed intercom wiring and camera at each floor landing, clean professional installation" width="600" height="800" src="/assets/section-gallery-gallery-gallery-image-14.webp" alt="התקנת אינטרקום במדרגות בניין מגורים" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1776683663384-e2ycufj59" style="">
+        <img data-context="Residential stairwell in an Israeli apartment building with newly installed intercom wiring and camera at each floor landing, clean professional installation" width="600" height="800" src="/assets/section-gallery-gallery-gallery-image-14.webp" alt="התקנת אינטרקום במדרגות בניין מגורים" data-element-type="image" data-element-id="img-1776683663384-e2ycufj59" >
       </figure>
 
       <figure class="gallery-item square zappy-grid-item-media-only zappy-grid-item-no-stretch" data-grid-item-index="14" data-zappy-has-aspect-ratio="true">
-        <img data-context="Night vision security camera footage quality comparison panel showing Israeli street at night, clear image from professional IR camera" width="600" height="600" src="/assets/section-gallery-gallery-gallery-image-15.webp" alt="איכות צילום לילה של מצלמת אינפרא-אדום" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1776683663384-0cucns9uf" style="">
+        <img data-context="Night vision security camera footage quality comparison panel showing Israeli street at night, clear image from professional IR camera" width="600" height="600" src="/assets/section-gallery-gallery-gallery-image-15.webp" alt="איכות צילום לילה של מצלמת אינפרא-אדום" data-element-type="image" data-element-id="img-1776683663384-0cucns9uf" >
       </figure>
 
       <figure class="gallery-item landscape zappy-grid-item-media-only zappy-grid-item-no-stretch" data-grid-item-index="15" data-zappy-has-aspect-ratio="true">
-        <img data-context="Technician from Israeli security company completing final inspection of a full security system installation in a private home, checking control panel, professional attire" width="800" height="500" src="/assets/section-gallery-gallery-gallery-image-16.webp" alt="טכנאי מסיים התקנת מערכת אבטחה מלאה בבית פרטי" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1776683663384-uoyq40b3j" style="">
+        <img data-context="Technician from Israeli security company completing final inspection of a full security system installation in a private home, checking control panel, professional attire" width="800" height="500" src="/assets/section-gallery-gallery-gallery-image-16.webp" alt="טכנאי מסיים התקנת מערכת אבטחה מלאה בבית פרטי" data-element-type="image" data-element-id="img-1776683663384-uoyq40b3j" >
       </figure>
 
     </div>
@@ -1691,27 +1931,27 @@
 
     <div class="gallery-gallery-grid">
       <figure class="gallery-gallery-tile">
-        <img data-context="Professional security camera installation on the exterior wall of a modern office building in Israel. Wide-angle shot showing a sleek IP dome camera mounted at a corner, cables neatly routed, with an urban commercial street visible below. Clean, high-quality professional installation." width="600" height="400" src="/assets/section-gallery-gallery-gallery-image-1.webp" alt="התקנת מצלמות אבטחה בבניין משרדים" data-zappy-editable-image="true">
+        <img data-context="Professional security camera installation on the exterior wall of a modern office building in Israel. Wide-angle shot showing a sleek IP dome camera mounted at a corner, cables neatly routed, with an urban commercial street visible below. Clean, high-quality professional installation." width="600" height="400" src="/assets/section-gallery-gallery-gallery-image-1.webp" alt="התקנת מצלמות אבטחה בבניין משרדים">
       </figure>
 
       <figure class="gallery-gallery-tile">
-        <img data-context="Indoor access control keypad installation at the entrance of a residential building lobby in Israel. Shows a modern digital keypad with backlit keys mounted on a clean wall beside a glass door, professional wiring concealed behind the panel. Bright, well-lit lobby setting." width="600" height="400" src="/assets/section-gallery-gallery-gallery-image-2.webp" alt="התקנת לוח בקרת כניסה בבניין מגורים" data-zappy-editable-image="true">
+        <img data-context="Indoor access control keypad installation at the entrance of a residential building lobby in Israel. Shows a modern digital keypad with backlit keys mounted on a clean wall beside a glass door, professional wiring concealed behind the panel. Bright, well-lit lobby setting." width="600" height="400" src="/assets/section-gallery-gallery-gallery-image-2.webp" alt="התקנת לוח בקרת כניסה בבניין מגורים">
       </figure>
 
       <figure class="gallery-gallery-tile">
-        <img data-context="Alarm system control panel installed inside a private home in Israel. Shows a sleek white alarm panel with LED indicators mounted on a wall near the entrance, with tidy cable management. Residential interior setting, clean and modern." width="600" height="400" src="/assets/section-gallery-gallery-gallery-image-3.webp" alt="מערכת אזעקה בבית פרטי" data-zappy-editable-image="true">
+        <img data-context="Alarm system control panel installed inside a private home in Israel. Shows a sleek white alarm panel with LED indicators mounted on a wall near the entrance, with tidy cable management. Residential interior setting, clean and modern." width="600" height="400" src="/assets/section-gallery-gallery-gallery-image-3.webp" alt="מערכת אזעקה בבית פרטי">
       </figure>
 
       <figure class="gallery-gallery-tile">
-        <img data-context="Video intercom system installation at the entrance gate of a residential compound in Israel. Shows a stainless steel intercom panel with camera and call buttons mounted on a stone pillar, outdoor setting with greenery in the background." width="600" height="400" src="/assets/section-gallery-gallery-gallery-image-4.webp" alt="אינטרקום עם מצלמה בכניסה לבניין" data-zappy-editable-image="true">
+        <img data-context="Video intercom system installation at the entrance gate of a residential compound in Israel. Shows a stainless steel intercom panel with camera and call buttons mounted on a stone pillar, outdoor setting with greenery in the background." width="600" height="400" src="/assets/section-gallery-gallery-gallery-image-4.webp" alt="אינטרקום עם מצלמה בכניסה לבניין">
       </figure>
 
       <figure class="gallery-gallery-tile">
-        <img data-context="Security camera monitoring station inside a business control room in Israel. Shows multiple screens displaying live CCTV footage from various cameras around a commercial facility. Professional setup with clean desk and organized equipment." width="600" height="400" src="/assets/section-gallery-gallery-gallery-image-5.webp" alt="חדר בקרה ומוניטורינג לעסק" data-zappy-editable-image="true">
+        <img data-context="Security camera monitoring station inside a business control room in Israel. Shows multiple screens displaying live CCTV footage from various cameras around a commercial facility. Professional setup with clean desk and organized equipment." width="600" height="400" src="/assets/section-gallery-gallery-gallery-image-5.webp" alt="חדר בקרה ומוניטורינג לעסק">
       </figure>
 
       <figure class="gallery-gallery-tile">
-        <img data-context="Outdoor PTZ security camera mounted on a high pole in a commercial parking lot in Israel. Wide shot showing the camera overlooking rows of parked vehicles, with clear blue sky background. Sturdy professional installation with weatherproof housing." width="600" height="400" src="/assets/section-gallery-gallery-gallery-image-6.webp" alt="מצלמת PTZ בחניון מסחרי" data-zappy-editable-image="true">
+        <img data-context="Outdoor PTZ security camera mounted on a high pole in a commercial parking lot in Israel. Wide shot showing the camera overlooking rows of parked vehicles, with clear blue sky background. Sturdy professional installation with weatherproof housing." width="600" height="400" src="/assets/section-gallery-gallery-gallery-image-6.webp" alt="מצלמת PTZ בחניון מסחרי">
       </figure>
     </div>
   </div>
