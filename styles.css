@@ -2700,9 +2700,9 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 ══════════════════════════════════════════ */
 @media (max-width: 767px) {
   .index-hero-section {
-    min-height: 100svh;
-    padding-bottom: 56px;
-  }
+  min-height: 75svh;
+  padding-bottom: 56px;
+}
 
   .index-hero-section .index-hero-container {
   padding: 110px 16px 36px;
@@ -8043,8 +8043,9 @@ body.accessibility-widget-visible ._access-menu {
   transform: none !important;
   align-items: flex-end !important;
   justify-content: flex-end !important;
-  padding-bottom: 36px !important;
-  padding-top: 110px !important;
+  padding-bottom: 32px !important;
+  padding-top: 80px !important;
+  min-height: 75svh !important;
 }
 
 #index-hero-section > [data-zappy-align-target] > * {
@@ -8070,8 +8071,8 @@ body.accessibility-widget-visible ._access-menu {
 
 #index-hero-section .index-hero-container {
   position: relative !important;
-  min-height: 100svh !important;
-  padding: 110px 16px 36px !important;
+  min-height: 75svh !important;
+  padding: 80px 16px 32px !important;
   width: 100% !important;
   align-items: flex-end !important;
   justify-content: center !important;
