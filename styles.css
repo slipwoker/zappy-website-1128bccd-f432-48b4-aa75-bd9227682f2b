@@ -2705,10 +2705,11 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   }
 
   .index-hero-section .index-hero-container {
-    padding: 110px 16px 36px;
-    align-items: flex-end;
-    min-height: 100svh;
-  }
+  padding: 110px 16px 36px;
+  align-items: flex-end;
+  min-height: 100svh;
+  justify-content: flex-end;
+}
 
   .index-hero-section .index-hero-card {
     padding: 24px 20px 22px;
@@ -8034,6 +8035,21 @@ body.accessibility-widget-visible ._access-menu {
 
 #index-hero-section .index-hero-bg img {
   object-position: 50% 15% !important;
+}
+}
+
+@media (max-width: 768px) {
+#index-hero-section > [data-zappy-align-target] {
+  transform: none !important;
+  align-items: flex-end !important;
+  justify-content: flex-end !important;
+  padding-bottom: 36px !important;
+  padding-top: 110px !important;
+}
+
+#index-hero-section > [data-zappy-align-target] > * {
+  justify-content: flex-end !important;
+  margin-top: auto !important;
 }
 }
 /* mobile-submenu-overflow-fix */
