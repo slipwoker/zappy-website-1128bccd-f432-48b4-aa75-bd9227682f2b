@@ -8030,6 +8030,8 @@ body.accessibility-widget-visible ._access-menu {
 @media (max-width: 768px) {
 #index-hero-section .index-hero-card {
   display: block !important;
+  background: rgba(31, 41, 51, 0.5) !important;
+  backdrop-filter: blur(6px) !important;
 }
 
 #index-hero-section .index-hero-bg img {
@@ -8093,6 +8095,13 @@ body.accessibility-widget-visible ._access-menu {
 
 #index-hero-section .index-hero-divider-wrapper {
   display: block !important;
+}
+}
+
+@media (max-width: 768px) {
+#index-hero-section .index-hero-card {
+  background: rgba(31, 41, 51, 0.5) !important;
+  backdrop-filter: blur(6px) !important;
 }
 }
 /* mobile-submenu-overflow-fix */
